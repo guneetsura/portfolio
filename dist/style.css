@@ -1,0 +1,103 @@
+body
+{
+  background-color: #000000;
+  background-image: URL("https://1stwebdesigner.com/wp-content/uploads/2019/07/css-background-effects-thumb.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#name
+{
+  color: #F90008;
+  text-align: center;
+  font-size: 28px;
+}
+#arrow
+{
+  color: #FFFFFF;
+  text-align: center;
+}
+h1
+{
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#Gun
+{
+  display: block;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#tp
+{
+  text-align:center;
+  color: #FFFFFF;
+  font-size: 28px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+#about
+{
+  text-align: center;
+}
+.para
+{
+  padding: 12px 12px;
+  text-align: center;
+  font-size: 19px;
+  color: Azure;
+}
+.aboutme
+{
+  border: 1px solid #34024E;
+  padding: 12px 200px;
+  border-radius: 30px;
+  background-color: #440466;
+  
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+a
+{
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: Azure;
+  display: inline-block;
+  border: 1px solid #DB920A;
+  border-align: center;
+  border-radius: 10px;
+  background-color: #DB920A;
+  padding: 20px 20px;
+}
